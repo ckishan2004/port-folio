@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <img src="image/logo.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Kishan</span> Chavda</h1>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!----------- about ------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/bg 1 (2).jpg" alt="about">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm a passionate computer engineering student at GTU, currently in my fourth semester. I have a strong interest in software development, web technologies, and AI-driven solutions. With a solid foundation in HTML, CSS, JavaScript, and object-oriented programming (OOP), I enjoy building innovative projects that solve real-world problems.
+
+                        I’m currently working on EvoltSpot, an EV charging station finder app, and a Gujarat Tourism project for my GTU presentation. I love exploring new technologies and enhancing my skills in AIoT, software development, and system optimization.
+                        
+                        My goal is to develop efficient and user-friendly applications that make a difference. Always eager to learn and collaborate, I look forward to connecting with like-minded individuals and working on exciting tech projects!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('projects')">Project</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Fronten</span><br>Web developer</li>
+                            <li><span>UI/UX</span><br>Web application</li>
+                            <li><span>Backend</span><br>Web developer</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2025 - current</span><br>Internship in coderOne company</li>
+                            <li><span>2023 - 2024</span><br>Learning web development technologies</li>
+                            <li><span>2022 - 2023</span><br>Web developer internship in codesoft</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="projects">
+                        <ul>
+                            <li><span>SPOTIFY Clone</span><br>Using HTML , CSS and Java Script</li>
+                            <li><span>Shyam auto consult</span><br>CSS and Java Script</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------services----------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p style="background-color: #ff004f;  border-radius: 4px;">Passionate web developer skilled in creating responsive,<br>
+                        user-friendly websites and web applications using technol<br>
+                        -ogies like HTML, CSS, JavaScript,bootstrap.</p>
+                    <a href="#" style="background-color: #ff004f;  border-radius: 4px;">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p style="background-color: #ff004f;  border-radius: 4px;">Creative UI/UX designer specializing in crafting intuitive,<br>
+                        user-centered interfaces and seamless digital experiences.<br>
+                        Skilled in wireframing, prototyping, and design tools like<br>
+                        Figma and Adobe XD.,</p>
+                    <a href="#" style="background-color: #ff004f;  border-radius: 4px;">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p style="background-color: #ff004f;  border-radius: 4px;">Passionate web developer skilled in creating responsive,<br>
+                        user-friendly websites and web applications using technol<br>
+                        -ogies like HTML, CSS, JavaScript,bootstrap.</p>
+                    <a href="#" style="background-color: #ff004f; border-radius: 4px;">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------portfolio---------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work1.jpg">
+                    <div class="layer">
+                        <h3>Spotify Website</h3>
+                        <p>The website connects you to the nature of the world.
+                            visit it from below link icon.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/work2.jpg">
+                    <div class="layer">
+                        <h3>E-commerce website</h3>
+                        <p>The website connects you to the business of the world.
+                            visit it from below link icon.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-square-envelope"></i>chavdakishan292@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 7778809021</p>
+                    <div class="social-icons">
+                        <a href="https://m.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/bg.jpg"  Download class="btn btn2">Downlode CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea><br>
+                        
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
